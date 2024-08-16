@@ -72,5 +72,6 @@ about:
   summary: Snowflake ML Library
 extra:
   recipe-maintainers:
+    - sfc-gh-wzhao
     - sfc-gh-pdorairaj
     - sfc-gh-srudenko
