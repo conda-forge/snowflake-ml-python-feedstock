@@ -1,11 +1,11 @@
 {% set name = "snowflake-ml-python" %}
-{% set version = "1.6.1" %}
+{% set version = "1.6.2" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/snowflake_ml_python-{{ version }}.tar.gz
-  sha256: 06247f91789637dcc61b5f44fdbf49f9992601b4daabdeac146ae029a4bb9131
+  sha256: ea3cc18c93eb9408af0b636852a73b2f34cb72f6843f496b60088bc54043b551
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolatio
@@ -37,7 +37,7 @@ requirements:
     - snowflake-snowpark-python >=1.17.0,<2
     - sqlparse >=0.4,<1
     - typing-extensions >=4.1.0,<5
-    - xgboost >=1.7.3,<2
+    - xgboost >=1.7.3,<2.1
     - python >=3.8,<3.12.0a0
   run_constrained:
     - catboost >=1.2.0,<2
