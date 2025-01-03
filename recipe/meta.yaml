@@ -4,15 +4,15 @@ package:
   name: {{ name|lower }}
   version: {{ version }}
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/snowflake_ml_python-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/snowflake_ml_python-{{ version }}.tar.gz
   sha256: 2c6ce4a3f17736c55176367d87f4d69cbcb73873339c45c6d8bb4b066de16cb3
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolatio
-  number: 0
+  number: 1
 requirements:
   host:
-    - python 3.9
+    - python {{ python_min }}
     - pip
   run:
     - absl-py >=0.15,<2
@@ -39,7 +39,7 @@ requirements:
     - sqlparse >=0.4,<1
     - typing-extensions >=4.1.0,<5
     - xgboost >=1.7.3,<3
-    - python >=3.9,<3.12.0a0
+    - python >={{ python_min }},<3.12.0a0
   run_constrained:
     - catboost >=1.2.0,<2
     - lightgbm >=4.1.0,<5
@@ -61,6 +61,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 about:
   description: |
     Snowflake ML client Library is used for interacting with Snowflake to build machine learning solutions.
