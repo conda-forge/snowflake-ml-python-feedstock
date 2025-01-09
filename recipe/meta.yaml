@@ -75,6 +75,7 @@ about:
   summary: Snowflake ML Library
 extra:
   recipe-maintainers:
+    - sfc-gh-pramachandran
     - sfc-gh-rsureshbabu
     - sfc-gh-hyu
     - sfc-gh-aponnusamy
