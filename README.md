@@ -151,7 +151,13 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@sfc-gh-aponnusamy](https://github.com/sfc-gh-aponnusamy/)
+* [@sfc-gh-hayu](https://github.com/sfc-gh-hayu/)
 * [@sfc-gh-pdorairaj](https://github.com/sfc-gh-pdorairaj/)
+* [@sfc-gh-pramachandran](https://github.com/sfc-gh-pramachandran/)
+* [@sfc-gh-rsureshbabu](https://github.com/sfc-gh-rsureshbabu/)
+* [@sfc-gh-sdas](https://github.com/sfc-gh-sdas/)
 * [@sfc-gh-srudenko](https://github.com/sfc-gh-srudenko/)
+* [@sfc-gh-thoyt](https://github.com/sfc-gh-thoyt/)
 * [@sfc-gh-wzhao](https://github.com/sfc-gh-wzhao/)
 
