@@ -1,11 +1,11 @@
 {% set name = "snowflake-ml-python" %}
-{% set version = "1.7.4" %}
+{% set version = "1.7.5" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/snowflake_ml_python-{{ version }}.tar.gz
-  sha256: f77392a5d3cabe2f87299a24b1ee7ba6ddea88efa4a25cdb45bf9dc15d21adea
+  sha256: a5e00a002b80eb805e79c5396ad232976405728d4cf5223191e3e7ad671d1da5
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolatio
@@ -40,20 +40,20 @@ requirements:
     - sqlparse >=0.4,<1
     - typing-extensions >=4.1.0,<5
     - xgboost >=1.7.3,<3
-    - python >={{ python_min }},<3.12.0a0
+    - python >={{ python_min }},<3.13.0a0
   run_constrained:
     - catboost >=1.2.0,<2
-    - huggingface_hub <0.26
+    - keras >=2.0.0,<4
     - lightgbm >=4.1.0,<5
     - mlflow >=2.16.0,<3
-    - pytorch >=2.0.1,<2.3.0
-    - sentence-transformers >=2.2.2,<3
-    - sentencepiece >=0.1.95,<1
+    - pytorch >=2.0.1,<3
+    - sentence-transformers >=2.7.0,<3
+    - sentencepiece >=0.1.95,<0.2.0
     - shap >=0.46.0,<1
-    - tensorflow >=2.12.0,<3
-    - tokenizers >=0.10,<1
+    - tensorflow >=2.17.0,<3
+    - tokenizers >=0.15.1,<1
     - torchdata >=0.4,<1
-    - transformers >=4.32.1,<5
+    - transformers >=4.37.2,<5
 test:
   imports:
     - snowflake.cortex
