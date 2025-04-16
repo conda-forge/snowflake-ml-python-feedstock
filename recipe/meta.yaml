@@ -9,7 +9,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolatio
-  number: 0
+  number: 1
 requirements:
   host:
     - python {{ python_min }}
@@ -37,7 +37,7 @@ requirements:
     - scipy >=1.9,<2
     - snowflake-connector-python >=3.12.0,<4
     - snowflake-snowpark-python >=1.17.0,<2,!=1.26.0
-    - snowflake.core>=1.0.2,<2
+    - snowflake.core >=1.0.2,<2
     - sqlparse >=0.4,<1
     - typing-extensions >=4.1.0,<5
     - xgboost >=1.7.3,<3
