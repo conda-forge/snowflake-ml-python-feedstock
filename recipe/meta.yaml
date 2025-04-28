@@ -27,6 +27,7 @@ requirements:
     - packaging >=20.9,<25
     - pandas >=1.0.0,<3
     - pyarrow
+    - pydantic >=2.8.2,<3
     - pyjwt >=2.0.0,<3
     - pytimeparse >=1.1.8,<2
     - pyyaml >=6.0,<7
