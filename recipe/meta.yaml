@@ -1,11 +1,11 @@
 {% set name = "snowflake-ml-python" %}
-{% set version = "1.9.1" %}
+{% set version = "1.9.2" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/snowflake_ml_python-{{ version }}.tar.gz
-  sha256: 35ef16059f8b9b637b1061b8243032f91f9036d321432bb3f736a43bf2e92afe
+  sha256: 5373c50f660636c4918ae2f0ea4c3d6125496c1045972f9a7295209bebc21a5c
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolatio
@@ -23,9 +23,10 @@ requirements:
     - cryptography
     - fsspec >=2024.6.1,<2026
     - importlib_resources >=6.1.1,<7
-    - numpy >=1.23,<2
+    - numpy >=1.23,<3
     - packaging >=20.9,<25
-    - pandas >=1.0.0,<3
+    - pandas >=2.1.4,<3
+    - platformdirs <5
     - pyarrow
     - pydantic >=2.8.2,<3
     - pyjwt >=2.0.0,<3
@@ -37,10 +38,11 @@ requirements:
     - scikit-learn <1.6
     - scipy >=1.9,<2
     - shap >=0.46.0,<1
-    - snowflake-connector-python >=3.12.0,<4
+    - snowflake-connector-python >=3.15.0,<4
     - snowflake-snowpark-python >=1.17.0,<2,!=1.26.0
     - snowflake.core >=1.0.2,<2
     - sqlparse >=0.4,<1
+    - tqdm <5
     - typing-extensions >=4.1.0,<5
     - xgboost >=1.7.3,<3
     - python >={{ python_min }},<3.13.0a0
@@ -57,7 +59,7 @@ requirements:
     - tensorflow >=2.17.0,<3
     - tokenizers >=0.15.1,<1
     - torchdata >=0.4,<1
-    - transformers >=4.39.3,<5
+    - transformers >=4.39.3,<5,!=4.51.3
 test:
   imports:
     - snowflake.cortex

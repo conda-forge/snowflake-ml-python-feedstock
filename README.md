@@ -156,6 +156,7 @@ Feedstock Maintainers
 * [@sfc-gh-pdorairaj](https://github.com/sfc-gh-pdorairaj/)
 * [@sfc-gh-pramachandran](https://github.com/sfc-gh-pramachandran/)
 * [@sfc-gh-rsureshbabu](https://github.com/sfc-gh-rsureshbabu/)
+* [@sfc-gh-schindirala](https://github.com/sfc-gh-schindirala/)
 * [@sfc-gh-sdas](https://github.com/sfc-gh-sdas/)
 * [@sfc-gh-srudenko](https://github.com/sfc-gh-srudenko/)
 * [@sfc-gh-thoyt](https://github.com/sfc-gh-thoyt/)
