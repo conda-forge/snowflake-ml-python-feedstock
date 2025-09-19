@@ -152,12 +152,17 @@ Feedstock Maintainers
 =====================
 
 * [@sfc-gh-aponnusamy](https://github.com/sfc-gh-aponnusamy/)
+* [@sfc-gh-gmurlidhar](https://github.com/sfc-gh-gmurlidhar/)
+* [@sfc-gh-gren](https://github.com/sfc-gh-gren/)
 * [@sfc-gh-hayu](https://github.com/sfc-gh-hayu/)
+* [@sfc-gh-jiehuang](https://github.com/sfc-gh-jiehuang/)
+* [@sfc-gh-kdickerson](https://github.com/sfc-gh-kdickerson/)
 * [@sfc-gh-pdorairaj](https://github.com/sfc-gh-pdorairaj/)
 * [@sfc-gh-pramachandran](https://github.com/sfc-gh-pramachandran/)
 * [@sfc-gh-rsureshbabu](https://github.com/sfc-gh-rsureshbabu/)
 * [@sfc-gh-schindirala](https://github.com/sfc-gh-schindirala/)
 * [@sfc-gh-sdas](https://github.com/sfc-gh-sdas/)
+* [@sfc-gh-skoduri](https://github.com/sfc-gh-skoduri/)
 * [@sfc-gh-srudenko](https://github.com/sfc-gh-srudenko/)
 * [@sfc-gh-thoyt](https://github.com/sfc-gh-thoyt/)
 * [@sfc-gh-wzhao](https://github.com/sfc-gh-wzhao/)
