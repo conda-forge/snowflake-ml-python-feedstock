@@ -34,7 +34,7 @@ requirements:
     - requests
     - retrying >=1.3.3,<2
     - s3fs >=2024.6.1,<2026
-    - scikit-learn <1.7
+    - scikit-learn <1.8
     - scipy >=1.9,<2
     - shap >=0.46.0,<1
     - snowflake-connector-python >=3.16.0,<4
@@ -43,7 +43,7 @@ requirements:
     - sqlparse >=0.4,<1
     - tqdm <5
     - typing-extensions >=4.1.0,<5
-    - xgboost >=1.7.3,<3
+    - xgboost <4
     - python >={{ python_min }},<3.13.0a0
   run_constrained:
     - altair >=5,<6
