@@ -82,6 +82,7 @@ about:
   summary: Snowflake ML Library
 extra:
   recipe-maintainers:
+    - sfc-gh-jdouglas
     - sfc-gh-gren
     - sfc-gh-gmurlidhar
     - sfc-gh-jiehuang
