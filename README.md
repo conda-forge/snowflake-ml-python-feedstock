@@ -170,6 +170,3 @@ Feedstock Maintainers
 * [@sfc-gh-valamuri](https://github.com/sfc-gh-valamuri/)
 * [@sfc-gh-wzhao](https://github.com/sfc-gh-wzhao/)
 
-
-<!-- dummy commit to enable rerendering -->
-
