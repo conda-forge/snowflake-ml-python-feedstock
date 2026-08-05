@@ -48,31 +48,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `snowflake-ml-python` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install snowflake-ml-python
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install snowflake-ml-python
 ```
 
-It is possible to list all of the versions of `snowflake-ml-python` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add snowflake-ml-python
+# for installing globally
+pixi global install snowflake-ml-python
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `snowflake-ml-python` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search snowflake-ml-python --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search snowflake-ml-python --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search snowflake-ml-python --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -84,6 +126,8 @@ mamba repoquery whoneeds snowflake-ml-python --channel conda-forge
 # List dependencies of `snowflake-ml-python`:
 mamba repoquery depends snowflake-ml-python --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -172,7 +216,4 @@ Feedstock Maintainers
 * [@sfc-gh-thoyt](https://github.com/sfc-gh-thoyt/)
 * [@sfc-gh-valamuri](https://github.com/sfc-gh-valamuri/)
 * [@sfc-gh-wzhao](https://github.com/sfc-gh-wzhao/)
-
-
-<!-- dummy commit to enable rerendering -->
 
