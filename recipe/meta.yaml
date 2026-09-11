@@ -39,7 +39,7 @@ requirements:
     - sqlparse >=0.4,<1
     - tqdm <5
     - typing-extensions >=4.1.0,<5
-    - python >=3.10,<3.14
+    - python >={{ python_min }},<3.14
   run_constrained:
     - altair >=5,<7
     - catboost >=1.2.0,<2
@@ -59,7 +59,6 @@ requirements:
     - tokenizers >=0.15.1,<1
     - tokenizers >=0.15.1,<1
     - torchdata >=0.4,<1
-    - transformers >=4.39.3,!=4.51.3,<6
     - transformers >=4.39.3,!=4.51.3,<6
     - xgboost <4
 test:
