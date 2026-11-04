@@ -1,11 +1,11 @@
 {% set name = "snowflake-ml-python" %}
-{% set version = "2.7.0" %}
+{% set version = "2.8.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/snowflake_ml_python-{{ version }}.tar.gz
-  sha256: df6dcaf1c498abc810ba4ab4c1320bee603efadca5a54bf482e360dd920881bd
+  sha256: 208856b98c593a9253cfb89986be2862a19477176255c22db0567daabc925009
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolatio
